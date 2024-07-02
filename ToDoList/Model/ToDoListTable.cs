@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace ToDoList.Model;
-internal class Description {
+internal class ToDoListTable {
 
     public int Id {get; set; }
 
@@ -14,7 +14,7 @@ internal class Description {
     public string Description {get; set; }
     
     
-    StringLength(80)]
+    [StringLength(80)]
     public string Status {get; set; } = "Active";
 
 
